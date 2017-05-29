@@ -14,9 +14,9 @@ ANSWERS
 
 7. SELECT name FROM recipes WHERE minutes_required in(SELECT MAX(minutes_required) from recipes);
 
-8.
+8. SELECT name FROM robots WHERE name lIKE 'M%';
 
-9.
+9. SELECT COUNT(name) FROM board_games WHERE max_players >= 8 AND min_players <= 8;
 
 10.
 
