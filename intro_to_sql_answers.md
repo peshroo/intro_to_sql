@@ -1,4 +1,4 @@
-ANSWERS
+INTRO TO SQL ANSWERS
 
 1. SELECT * FROM robots WHERE source = 'The Hitchhiker"s Guide to the Galaxy';
 
@@ -18,8 +18,8 @@ ANSWERS
 
 9. SELECT COUNT(name) FROM board_games WHERE max_players >= 8 AND min_players <= 8;
 
-10.
+10. SELECT name FROM animals WHERE swimming=TRUE and egg_laying=TRUE;
 
-11.
+11. SELECT name FROM animals WHERE swimming=TRUE and egg_laying=TRUE and flying=FALSE;
 
-12.
+12. SELECT name FROM board_games WHERE max_players in(SELECT MAX(max_players) from board_games);
