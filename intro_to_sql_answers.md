@@ -12,7 +12,7 @@ ANSWERS
 
 6. SELECT name FROM board_games WHERE mins_to_play in(SELECT MIN(mins_to_play) from board_games);
 
-7.
+7. SELECT name FROM recipes WHERE minutes_required in(SELECT MAX(minutes_required) from recipes);
 
 8.
 
